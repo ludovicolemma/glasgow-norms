@@ -1,13 +1,19 @@
 # The Project
 This is my first python and data mining comprehensive project. The objective was to apply and explore some fundamental concepts I studied. The tasks I focused on were Data Understanding, Data Preparation, Clustering, Classification, and Pattern Mining. I wrote about the processes and results of these tasks in a final report called "Glasgow_Norms_Report.pdf" which I compiled with LaTex. The files "\*-notebook.ipynb" are the refined and reduced versions of the Jupyter Notebooks of the work I've done divided by task.
 
+<p align="center">
+<a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Glasgow_Norms_Report.pdf">Read the Report</a> •
+<a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/dataset.csv">View the Dataset</a></br></br>
+<a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/understanding-preparation-notebook.ipynb">Data Understanding and Preparation Code</a> •
+</p>
+
 # The Glasgow Norms
 The Glasgow Norms are a set of ratings for English words on nine psycholinguistic dimensions: arousal, valence, dominance, concreteness, imageability, familiarity, age of acquisition, semantic size, and gender association. Three other variables are included in the dataset I worked on, namely length, polysemy, and the frequency of the word (in the Google Newspapers Corpus). </br>
-There were originally two sets of words, one of 808 words, the other of 4800 words, which then were merged for this study. The experiment was run online (via the University of Glasgow's website: https://participants.psy.gla.ac.uk/), each participant rated a list of either 101 (from 8 possible lists of the 808 word set) or 150 words (from 32 possible lists of the 4,800 word set).
+There were originally two sets of words, one of 808 words, the other of 4800 words, which then were merged for this study. The experiment was run online (via the University of Glasgow's [platform](https://participants.psy.gla.ac.uk/)), each participant rated a list of either 101 (from 8 possible lists of the 808 word set) or 150 words (from 32 possible lists of the 4,800 word set).
 
 # Summary of the Project
 
-- Data Understanding and Preparation
+- [Data Understanding and Preparation](https://github.com/ludovicolemma/glasgow-norms/blob/main/understanding-preparation-notebook.ipynb)
   * Data semantics and data description: Here I provide a brief description of some particularities of the features of the dataset, namely which are the shortest and longest words, the number of polysemous and non-polysemous words, the most and least frequent words, and the scale of the features and its meaning
   * Distribution of the variables and statistics: Here I provide some histograms, scatterplots, density, and line plots of the distribution of the length and polysemy of the words across other features.
   * Data quality and variable transformations: Here I evidenced the missing values while filling them, then I presented the number of outliers computed from the box plot and the reasoning of the log-transformation of the variable "frequency" and some plots to relate it to polysemy
