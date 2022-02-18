@@ -4,7 +4,7 @@ This is my first python and data mining comprehensive project. The objective was
 <p align="center">
 <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Glasgow_Norms_Report.pdf">Read the Report</a> •
 <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/dataset.csv">View the Dataset</a></br></br>
-<a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/understanding-preparation-notebook.ipynb">Data Understanding and Preparation Code</a> •
+<a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/1-understanding-preparation-notebook.ipynb">Data Understanding and Preparation Code</a> • <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/2-clustering-notebook.ipynb">Clustering Code</a> •
 </p>
 
 # The Glasgow Norms
@@ -13,13 +13,13 @@ There were originally two sets of words, one of 808 words, the other of 4800 wor
 
 # Summary of the Project
 
-- [Data Understanding and Preparation](https://github.com/ludovicolemma/glasgow-norms/blob/main/understanding-preparation-notebook.ipynb)
+- [Data Understanding and Preparation](https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/1-understanding-preparation-notebook.ipynb)
   * Data semantics and data description: Here I provide a brief description of some particularities of the features of the dataset, namely which are the shortest and longest words, the number of polysemous and non-polysemous words, the most and least frequent words, and the scale of the features and its meaning
   * Distribution of the variables and statistics: Here I provide some histograms, scatterplots, density, and line plots of the distribution of the length and polysemy of the words across other features.
   * Data quality and variable transformations: Here I evidenced the missing values while filling them, then I presented the number of outliers computed from the box plot and the reasoning of the log-transformation of the variable "frequency" and some plots to relate it to polysemy
   * Highly correlated variables: Here I studied the most correlated variables and I evidenced some particular information about their distributions across the variable "gender" (discretized) through histograms, scatterplots, and density plots
   * Feature selection: Here I provided the process I followed to select the features, preliminarily I applied the variance inflation factor, then I did a principal component analysis, I explained why I focused on three principal components through a screeplot, and I characterized them explaining their loadings
-- Clustering
+- [Clustering](https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/2-clustering-notebook.ipynb)
   * Clustering analysis by k-means: Here I explained the results obtained by applying k-means with the process of hyperparameter selection through SSE and the aggregated Silhouette Score
   * Analysis by density-based clustering: Here I explained why DBSCAN didn't work, the hyperparameter selection process, and the comparison of the resulting noise to the previously identified outliers 
   * Analysis by hierarchical clustering: Here I studied the differences between four different linkage criteria of the agglomerative hierarchical clustering algorithm through dendrograms, I compared the resulting clusters by measuring how much they captured polysemous words and how much they differed and why I concluded the average linkage criterion was the best with this dataset
