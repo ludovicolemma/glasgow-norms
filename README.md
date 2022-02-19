@@ -1,10 +1,10 @@
 # The Project
-This is my first python and data mining comprehensive project. The objective was to apply and explore some fundamental concepts I studied. The tasks I focused on were Data Understanding, Data Preparation, Clustering, Classification, and Pattern Mining. I wrote about the processes and results of these tasks in a final report called "Glasgow_Norms_Report.pdf" which I compiled with LaTex. The files "\*-notebook.ipynb" are the refined and reduced versions of the Jupyter Notebooks of the work I've done divided by task.
+This is my first python and data mining comprehensive project. The objective was to apply and explore some fundamental concepts I studied. The tasks I focused on were Data Understanding, Data Preparation, Clustering, Classification, and Pattern Mining. I wrote about the processes and results of these tasks in a final report called "Glasgow_Norms_Report.pdf" which I compiled with LaTex. The files "\*-notebook.ipynb", in the Notebooks folder, are the refined and reduced versions of the Jupyter Notebooks of the work I've done, divided by task.
 
 <p align="center">
 <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Glasgow_Norms_Report.pdf">Read the Report</a> •
 <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/dataset.csv">View the Dataset</a></br></br>
-<a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/1-understanding-preparation-notebook.ipynb">Data Understanding and Preparation Code</a> • <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/2-clustering-notebook.ipynb">Clustering Code</a> • <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/3-classification-notebook.ipynb">Classification Code</a> • <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/4-pattern-mining-notebook.ipynb">Pattern mining Code</a>
+<a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/1-understanding-preparation-notebook.ipynb">Data Understanding and Preparation Code</a> • <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/2-clustering-notebook.ipynb">Clustering Code</a> • <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/3-classification-notebook.ipynb">Classification Code</a> • <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/4-pattern-mining-notebook.ipynb">Pattern Mining Code</a>
 </p>
 
 # The Glasgow Norms
