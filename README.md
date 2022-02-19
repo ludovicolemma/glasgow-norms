@@ -4,7 +4,7 @@ This is my first python and data mining comprehensive project. The objective was
 <p align="center">
 <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Glasgow_Norms_Report.pdf">Read the Report</a> •
 <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/dataset.csv">View the Dataset</a></br></br>
-<a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/1-understanding-preparation-notebook.ipynb">Data Understanding and Preparation Code</a> • <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/2-clustering-notebook.ipynb">Clustering Code</a> • <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/3-classification-notebook.ipynb">Classification Code</a> •
+<a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/1-understanding-preparation-notebook.ipynb">Data Understanding and Preparation Code</a> • <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/2-clustering-notebook.ipynb">Clustering Code</a> • <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/3-classification-notebook.ipynb">Classification Code</a> • <a href="https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/4-pattern-mining-notebook.ipynb">Pattern mining Code</a>
 </p>
 
 # The Glasgow Norms
@@ -28,7 +28,7 @@ There were originally two sets of words, one of 808 words, the other of 4800 wor
   * Decision tree algorithm: Here I studied how to build the model, I explained how I set the parameters of the decision tree through a gridsearch with k-fold cross-validation, I presented the ROC Curve and PR Curve and I evidenced some thresholds to compare some resulting metrics of the respective confusion matrices
   * Knn algorithm: Here I explained how I applied KNN, from the selection of the k parameter with a gridsearch and the analysis of the resulting performances as before comparing multiple thresholds (*I didn't understand properly KNN at the time of writing, as such I only applied the algorithm knowing generally what was written in the sklearn documentation, and in the report I may have used "model" improperly*) 
   * Performance comparison of the two models: Finally I compared the performances I obtained and evidenced the best classificator
-- Pattern Mining: Preliminarily I explained which features I discretized and how I determined their intervals
+- [Pattern Mining](https://github.com/ludovicolemma/glasgow-norms/blob/main/Notebooks/4-pattern-mining-notebook.ipynb): Preliminarily I explained which features I discretized and how I determined their intervals
   * Frequent pattern extraction: Firstly I presented through a graph which percentage of support I adopted to determine the threshold to look for frequent itemset with the apriori algorithm, in particular how I focused on maximal frequent itemsets and the resulting frequent patterns containing polysemy
   * Association rules extraction: Here I presented how I extracted various association rules looking through different levels of confidence
   * Application of the extracted rules: Finally I used some of the extracted rules to predict the "polysemy" and "high frequency" of the words, comparing the results to the performance of the KNN algorithm at 0.5 threshold
